@@ -30,7 +30,6 @@ import com.cts.processor.PersonItemProcessor;
 	    public StepBuilderFactory stepBuilderFactory;
 	    
 	    public BatchConfiguration(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory) {
-			super();
 			this.jobBuilderFactory = jobBuilderFactory;
 			this.stepBuilderFactory = stepBuilderFactory;
 		}

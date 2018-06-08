@@ -7,10 +7,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data @NoArgsConstructor
+@Data 
+@NoArgsConstructor
 public class Person {
 	
-	@Id
+	@Id	
 	private String id;
     private String lastName;
     private String firstName;
